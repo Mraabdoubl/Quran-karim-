@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    direction: rtl;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.language-selector select {
+    width: 150px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.main-page, .register-page, .login-page, .verify-page, .channels-page {
+    display: none;
+}
+
+.main-page {
+    padding: 20px;
+    background-color: #e6ffe6;
+}
+
+.channels-page .channel {
+    margin: 10px 0;
+}
+
+.text-success {
+    color: #28a745;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-2 {
+    margin-top: 20px;
+}
+
+.mt-4 {
+    margin-top: 40px;
+}
+
+.mt-5 {
+    margin-top: 50px;
+}

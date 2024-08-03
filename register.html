@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إنشاء حساب</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+                <div class="register-page">
+                    <h1 class="text-center text-success">إنشاء حساب</h1>
+                    <form id="register-form">
+                        <div class="form-group">
+                            <input type="text" id="register-username" class="form-control" placeholder="اسم المستخدم" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="register-email" class="form-control" placeholder="البريد الإلكتروني" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" id="register-password" class="form-control" placeholder="كلمة المرور" required>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-block">إنشاء حساب</button>
+                    </form>
+                    <div class="text-center mt-2">
+                        <p>ستتلقى رسالة نصية إلى بريدك الإلكتروني لتأكيد حسابك.</p>
+                        <a href="login.html">تسجيل الدخول</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js" defer></script>
+</body>
+</html>

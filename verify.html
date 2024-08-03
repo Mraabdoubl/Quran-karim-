@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تأكيد الحساب</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+                <div class="verify-page">
+                    <h1 class="text-center text-success">تأكيد الحساب</h1>
+                    <form id="verify-form">
+                        <div class="form-group">
+                            <input type="email" id="verify-email" class="form-control" placeholder="البريد الإلكتروني" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="verify-code" class="form-control" placeholder="كود التأكيد" required>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-block">تأكيد الحساب</button>
+                    </form>
+                    <div class="text-center mt-2">
+                        <a href="login.html">تسجيل الدخول</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js" defer></script>
+</body>
+</html>

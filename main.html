@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>القرآن رفيق حلقات الصديق</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="language-selector float-right mt-2">
+                    <select id="language-select" class="form-control" onchange="changeLanguage()">
+                        <option value="ar">عربية</option>
+                        <option value="en">English</option>
+                        <option value="fr">Français</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="main-page">
+            <h1 class="text-center text-success">بسم الله الرحمان الرحيم</h1>
+            <div class="content text-center">
+                <h2>صلو على النبي و سلمو عليه تسليما</h2>
+                <div class="channels">
+                    <button class="btn btn-danger" onclick="openChannels()">قنوات دينية</button>
+                </div>
+                <div class="links mt-4">
+                    <a href="https://quran.ksu.edu.sa/m.php#aya=1_1&t=1" class="btn btn-primary btn-block">مصحف</a>
+                    <a href="https://surahquran.com/" class="btn btn-primary btn-block">قرآن بالصوت و الصورة</a>
+                </div>
+            </div>
+            <div class="profile-settings float-left mt-2">
+                <img src="profile.jpg" alt="صورة الملف الشخصي" class="profile-pic rounded-circle" onclick="uploadProfilePic()">
+                <button class="btn btn-secondary" onclick="openSettings()">إعدادات</button>
+            </div>
+            <div class="mt-5 text-center">
+                <h3>اشترك في قناتي</h3>
+                <a href="https://youtube.com/@mrabdouxd?si=AtNh557CyehmGPOB" class="btn btn-success">اشترك الآن</a>
+            </div>
+        </div>
+        <div class="channels-page">
+            <div class="channel btn btn-success btn-block" onclick="window.location.href='https://youtube.com/@othmanalkamees?si=Bs34qTP-_IC4hCJ3'">خانة 1: عثمان الخميس</div>
+            <div class="channel btn btn-success btn-block" onclick="window.location.href='https://youtube.com/@ahmad_alnufais?si=NbaSsAk2fqtHg1jS'">خانة 2: علوم السيرة</div>
+            <div class="channel btn btn-success btn-block" onclick="window.location.href='https://youtube.com/@user-vk6tx2zv8l?si=QqCsFOLTgjSJB23M'">خانة 3: علوم القرآن</div>
+            <div class="channel btn btn-success btn-block" onclick="window.location.href='https://youtube.com/@hosariofficial?si=NIEQw5_007XrIZRv'">خانة 4: الحصري</div>
+            <div class="channel btn btn-success btn-block" onclick="window.location.href='https://youtube.com/@abdulbaasitabdussamad?si=oqi9ZIPXCWdJ-XIx'">خانة 5: عبد الباسط</div>
+            <button class="btn btn-warning mt-2" onclick="goBack()">عودة للصفحة التي قبلها</button>
+        </div>
